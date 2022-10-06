@@ -1,35 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Cats!</title>
-    <link rel="stylesheet" href="../style.css" />
 
-</head>
+    <head>
+
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bean's Domain!</title>
+        <link rel="stylesheet" href="../style.css" />
+
+    </head>
 
 
-<body>
+    <body>
 
-    <h1>Welcome to Bean's Domain!</h1>
-    <div class="padding">
+        <h1 class="header">Welcome to Bean's Domain!</h1>
 
-    <div class="content">
+        <div class="padding">
 
-    <div class="align"
+            <div class="content">
 
-    <img src="../images/Bean Birthday.jpg" alt="Bean's Birthday">
-    <img src="../images/Bean Christmas.jpg" alt="Bean's Christmas">
-    <img src="../images/Bean laying in basket.jpg" alt="Bean laying in a basket">
-    <img src="../images/Bean sitting in basket.jpg" alt="Bean sitting in basket">
-    <img src="../images/Bean sleeping.jpg" alt="Bean sleeping">
-    <img src="../images/Bean Stare.jpg" alt="Bean staring">
+                <img src="../images/Bean Birthday.jpg" alt="Bean's Birthday">
+                    <p>Bean's 3rd birthday!</p>
+                <img src="../images/Bean laying in basket.jpg" alt="Bean laying in a basket">
+                    <p>A Bean laying in a basket!</p>
+                <img src="../images/Bean sitting in basket.jpg" alt="Bean sitting in basket">
+                    <p>Bean sitting in a basket!</p>
+                <img src="../images/Bean sleeping.jpg" alt="Bean sleeping">
+                    <p>A sleepy bean!</p>
+                <img src="../images/Bean Stare.jpg" alt="Bean staring">
+                    <P>bean staring into your soul!</P>
+                <img src="../images/Bean Christmas.jpg" alt="Bean's Christmas">
+                    <p>Bean under the christmas tree!</p>
 
-    </div>
-    </div>
-    </align>
- 
-</body>
+            </div>
+        </div>
+
+    </body>
+
 </html>
