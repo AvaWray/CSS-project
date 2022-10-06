@@ -1,29 +1,26 @@
-body{background-color: rgb(133, 220, 186)}
+body{background-color: coral}
 
 h1{color: white; text-align: center;}
 
-img{height: 500px; 
+img{display: grid;
+    place-items: center;
+    height: 500px; 
     width: auto;
-    justify-content: center;
-    border-radius: 20px;}
+    padding: 1% 1% 1% 1%;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;}
 
-p{color: white;}
+p{color: black;}
 
 a{color: aqua}
 
-.box{
-    border-radius: 25px;
-    background-color: beige; 
-    color: black;
-    font-size: 20px;
-    width: 500px;
-    text-align: center;}
-
 .content{
-    
     display: block;
     background-color: beige;
+    width: auto;
+    place-items: center;
+    border-radius: 50px;}
 
-}
+.padding{padding: 1% 5% 5% 5%;}
 
-.padding{padding: 5% 5% 5% 5%;}

@@ -13,13 +13,14 @@
 
 <body>
 
-    <div class="padding">
     <h1>Welcome to Bean's Domain!</h1>
+    <div class="padding">
 
     <div class="content">
 
+    <div class="align"
+
     <img src="../images/Bean Birthday.jpg" alt="Bean's Birthday">
-    <div class="box">Bean's third birthday!</div>
     <img src="../images/Bean Christmas.jpg" alt="Bean's Christmas">
     <img src="../images/Bean laying in basket.jpg" alt="Bean laying in a basket">
     <img src="../images/Bean sitting in basket.jpg" alt="Bean sitting in basket">
@@ -27,7 +28,8 @@
     <img src="../images/Bean Stare.jpg" alt="Bean staring">
 
     </div>
-</div>
+    </div>
+    </align>
  
 </body>
 </html>
