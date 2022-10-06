@@ -7,7 +7,9 @@
     <title>My Cats!</title>
     <style>
         body{background-color: black;}
-        h1{color: white;}
+        h1{color: white; text-align: center;}
+        img{height: 500px; 
+            width: auto;}
     </style>
 </head>
 <body>
