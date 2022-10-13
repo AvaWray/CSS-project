@@ -1,13 +1,17 @@
 *{font-family: Arial, Helvetica, sans-serif;
     font-size:20px;}
 
-body {background-color: rgb(8, 8, 38);}
+body {
+    display: flex;
+    justify-content: center;
+    overflow: visible;
+    margin: 0;}
 
 ul {display: flex;
     justify-content: space-between;
-    width: 200px;
+    width: 20%;
     gap: 10px;
-    margin: 20px;
+    padding: 0;
     color: white;
     list-style: none;
     }
@@ -15,25 +19,28 @@ ul {display: flex;
 .page-container {
         display: flex;
         justify-content: center;
-        margin: 0px 200px 0px 200px;
+        width: 70%;
+        overflow: visible;
         }
 
 .banner-background{
-    background-color: rgba(0, 0, 0, 0.471);
+     background-color: rgba(0, 0, 0, 0.471);
     display: flex;
     justify-content: center;
     align-content: center;
-    margin: -20px -650px 0px -650px;
-    width: 100%;
+    flex-basis: 100%;
     }
 
 .banner-text{
         display: flex;
         flex-wrap: nowrap;
         flex-basis: 100%;
+        padding: 0% 20% 0% 20%;
+        margin: - 2% -2% 0 -2%;
         justify-content: space-between;
         align-items: center;
         height: 100px;
+        background-color: rgba(0, 0, 0, 0.407);
         }
 
 .page-title{color: white;
