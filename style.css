@@ -1,50 +1,42 @@
 *{font-family: Arial, Helvetica, sans-serif;
     font-size:20px;}
 
-body{
-    background-color: rgb(255, 138, 95)
+body {background-color: rgb(8, 8, 38);}
+
+ul {display: flex;
+    justify-content: space-between;
+    width: 200px;
+    gap: 10px;
+    margin: 20px;
+    color: white;
+    list-style: none;
     }
 
-h1{
-    color: white; 
-    text-align: center;
-    font: 40;
+.page-container {
+        display: flex;
+        justify-content: center;
+        margin: 0px 200px 0px 200px;
+        }
+
+.banner-background{
+    background-color: rgba(0, 0, 0, 0.471);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: -20px -650px 0px -650px;
+    width: 100%;
     }
 
-img{
-    display: grid;
-    place-items: center;
-    height: auto; 
-    max-width: 70%;
-    padding: 1% 1% 1% 1%;
-    border-radius: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    }
+.banner-text{
+        display: flex;
+        flex-wrap: nowrap;
+        flex-basis: 100%;
+        justify-content: space-between;
+        align-items: center;
+        height: 100px;
+        }
 
-p{color: black;}
-
-a{color: rgb(12, 184, 184)}
-
-.content{
-    display: block;
-    background-color: beige;
-    text-align: center;
-    width:fit-content;
-    place-items: center;
-    border-radius: 25px;
-    padding: 2.5% 3% 2.5% 3%;
-    margin-top: auto;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-bottom: auto}
-
-.header{
-        margin-top: 0%;
-        margin-bottom: 30px;
-        padding-bottom: 30px;
-        padding-top: 30px;
-        background-color: beige;
-        color: black;
+.page-title{color: white;
+        font-weight: 200;
         font-size: 40px;
         }
