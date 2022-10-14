@@ -145,3 +145,25 @@ ul {display: flex;
     padding: 4% 20% 4% 20%;
     background-color: #ff9999;
 }
+
+.website-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+}
+
+.website-image{
+    width: 500px;
+    height: auto;
+    margin-top: 30px;
+}
+
+.portfolio-text{
+    color: white;
+    font-size: 27 pt;
+    padding: 20px;
+    font-weight: bold;
+}
