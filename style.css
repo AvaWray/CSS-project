@@ -5,6 +5,7 @@ body {
     display: flex;
     justify-content: center;
     overflow: visible;
+    flex-direction: column;
     margin: 0;}
 
 ul {display: flex;
@@ -13,26 +14,9 @@ ul {display: flex;
     width: 20%;
     gap: 10px;
     padding: 0;
-    color: white;
+    color: black;
     list-style: none;
     flex:1;
-    }
-
-
-
-.page-container {
-        display: flex;
-        justify-content: center;
-        width: 70%;
-        overflow: visible;
-        }
-
-.banner-background{
-     background-color: rgba(0, 0, 0, 0.471);
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    flex-basis: 100%;
     }
 
 .banner-text{
@@ -44,10 +28,10 @@ ul {display: flex;
         justify-content: space-between;
         align-items: center;
         height: 100px;
-        background-color: rgba(0, 0, 0, 0.407);
+        background-color: rgb(255, 255, 255);
         }
 
-.page-title{color: white;
+.page-title{
         font-weight: 200;
         font-size: 40px;
         flex:1;
@@ -55,6 +39,11 @@ ul {display: flex;
         }
 
 .banner-text a{
-    color: white;
+    color: black;
     text-decoration: none;
+}
+
+.middle-block{
+    display: flex;
+    color: #ff9999
 }
